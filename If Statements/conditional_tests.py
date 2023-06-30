@@ -124,7 +124,9 @@ if (10 in array) and (36 in array):
 if array[0] <= array[1]:
     print (str(array[0]) + " is lesser than " + str(array[1]))
 
+person_name = 'ThiAgO'
 
-
+if person_name.lower() == 'thiago':
+    print("It's him indeed!")
 
 
