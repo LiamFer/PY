@@ -12,13 +12,17 @@ items = ''
 for item in array:
     items += item + ','
 items += 'box 3,'
-
+items += 'box 4,'
+items += 'box 5,'
 print ("Esse é o array string -> " + items)
 
 array = items[:-1].split(',')
 
 print (array)
-
+items = ''
+for item in array:
+    items += item + ','
+print (items)
 
 # if 'box 1' in array:
 #     array.remove('box 1')
