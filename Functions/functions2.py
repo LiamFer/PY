@@ -40,3 +40,4 @@ while many_albums > 0:
         tracks = int(input("How many tracks does the album have? "))
     make_album(artist,title,tracks)
     many_albums-=1
+    
