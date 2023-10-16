@@ -43,3 +43,4 @@ def make_car(manufacturer:str,model:str,**plus_info):
     return car
 
 make_car('subarro','outback',color='black',nitro=True,year=1982,speed=220)
+
